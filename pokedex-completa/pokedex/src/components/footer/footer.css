@@ -1,0 +1,64 @@
+.rodape{
+  background: linear-gradient(180deg, #FF0000 0%, #CB1515 100%);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px 10px 10px 30px;
+  color: white;
+  margin-top: 50rem;
+  font-size: 17pt;
+  bottom: 0;
+}
+
+.devs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.developers{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 15px;
+}
+.photo{
+  margin: 5px;
+}
+.photo img{
+  border-radius: 90px;
+  width: 50px;
+  height: 50px;
+}
+.photo img,h4{
+  float: left;
+}
+.about{
+  float: left;
+
+}
+
+h5 {
+  float: left;
+}
+#footer-sobre:hover{
+  color:#ffffcc;
+}
+
+#footer-sobre {
+  color: white;
+}
+
+@media (min-width:219px) and (max-width:662px) {
+  .rodape {
+    justify-content: center;
+  }
+
+  .developerName {
+    text-align: center;
+  }
+}
+
+
+

@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    margin-top: 150px;
+}
+
+.status-em-preto {
+    color: #323232;
+}
+
+.pokeinfos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+}
+.real-sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+#nome {
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.side-bar {
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+.status-bar-pokeinf {
+    margin-top: 40px;
+    width: 25rem;
+    height: 400px;
+}
+
+.bar-hp,.bar-atk,.bar-def,.bar-spatk,.bar-spdef,.bar-speed {
+    height: 17px;
+    background-color: #00FF19;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #e7e7e7;
+
+}
+.grey-bar {
+    display: flex;
+    align-items: center;
+    background-color: #E2E2E2;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.barra-de-status {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    flex-direction: column;
+}
+
+.barra-de-status p {
+    font-size: 20pt;
+    line-height: 43px;
+}
+
+.segundaBox {
+    align-self: center;
+    width: 25rem;
+    height: 10rem;
+    background-color: #E2E2E2;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.segundaBox p {
+    font-size: 15pt;
+}
+
+.status-numero {
+    font-size: 17pt;
+}
+
+@media (max-width: 700px) {
+    #nome {
+        font-size: 25px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    
+    .side-bar {
+        float: right;
+        display: flex;
+        justify-content: center;
+    }
+    .status-bar-pokeinf {
+        margin-top: 24px;
+        width: 17rem;
+        height: 400px;
+    }
+
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image #ima {
+        width: 60%;
+        align-self: center;
+    }
+    
+}
+
+@media (max-width: 510px) {
+    #nome {
+        font-size: 25px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    
+    .side-bar {
+        float: right;
+        display: flex;
+        justify-content: center;
+    }
+    .status-bar-pokeinf {
+        margin-top: 24px;
+        width: 10rem;
+        height: 400px;
+    }
+
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image #ima {
+        width: 60%;
+        align-self: center;
+    }
+
+    .bar-hp,.bar-atk,.bar-def,.bar-spatk,.bar-spdef,.bar-speed {
+        height: 11px;
+        background-color: #00FF19;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 9pt;
+        color: white;
+    
+    }
+    .grey-bar {
+        display: flex;
+        align-items: center;
+        background-color: #E2E2E2;
+        width: 90%;
+        height: 5px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .barra-de-status p {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-size: 15pt;
+        
+    }
+    
+    .segundaBox {
+        align-self: center;
+        margin-top: -100px;
+        width: 17rem;
+        height: 10rem;
+        background-color: #E2E2E2;
+        display: flex;
+        float: right;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+    }
+
+    .segundaBox div p {
+        font-size: 15pt;
+    }
+
+    .barra-de-status p {
+        font-size: 15pt;
+        line-height: 27px;
+    }
+    
+    
+}
+
+.image{
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+}
+
+.image #ima {
+    width: 80%;
+}
+
+
+

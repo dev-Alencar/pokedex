@@ -1,0 +1,16 @@
+#voltar {
+    margin: 15px;
+    border: none;
+    font-size: 20pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s;
+    font-family: 'Nunito', sans-serif;
+}
+
+#voltar:hover {
+    color: #5a5a5a;
+    transform: scale(1.2);
+}
